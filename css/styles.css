@@ -13,6 +13,12 @@
   position: absolute;
   left: 240px;
   top: 0;
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+.pink-rectangle:hover {
+  filter: grayscale(0%);
+  transition: all 3s;
 }
 .light-rectangle {
   width: 240px;
@@ -268,6 +274,7 @@
   left: 91px;
   top: 1030px;
   background: #D00000;
+  animation: rotate1 2s infinite linear reverse;
  }
 .greenrec {
   position: absolute;
@@ -276,6 +283,8 @@
   left: 1228px;
   top: 1030px;
   background: #04D200;
+  animation: rotate1 2s infinite linear reverse;
+  animation-delay: .2s;
  }
 .blackrec {
   position: absolute;
@@ -284,6 +293,8 @@
   left: 91px;
   top: 1627px;
   background: #000000;
+  animation: rotate2 2s infinite linear reverse;
+  animation-delay: .6s;
 }
 .bluerec {
   position: absolute;
@@ -292,6 +303,8 @@
   left: 1228px;
   top: 1627px;
   background: #0002AF;
+  animation: rotate2 2s infinite linear reverse;
+  animation-delay: .8s;
 }
 
 .line1rec1{
@@ -835,6 +848,7 @@
   height: 367px;
   left: 537px;
   top: 1822px;
+  animation: rotate1 2s infinite linear reverse;
 }
 .k2 {
   position: absolute;
@@ -842,6 +856,7 @@
   height: 366px;
   left: 536px;
   top: 2236px;
+  animation: rotate2 2s infinite linear reverse;
 }
 .k3 {
   position: absolute;
@@ -849,6 +864,7 @@
   height: 367px;
   left: 536px;
   top: 2648px;
+  animation: rotate1 .8s infinite linear reverse;
 }
 .k4 {
   position: absolute;
@@ -856,6 +872,7 @@
   height: 366px;
   left: 537px;
   top: 3055px;
+  animation: rotate2 4s infinite linear reverse;
 }
 .backgroundk {
   position: absolute;
