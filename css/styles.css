@@ -1054,6 +1054,7 @@
   left: 480px;
   bottom: 0px;
   background: #E71D73;
+  animation: futer 2s infinite linear reverse
 }
 .frec2 {
   position: absolute;
@@ -1062,6 +1063,8 @@
   left: 617px;
   bottom: 0px;
   background: #04D200;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: 1s
 }
 .frec3 {
   position: absolute;
@@ -1070,6 +1073,8 @@
   left: 754px;
   bottom: 0px;
   background: #D00000;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .8s
 }
 .frec4 {
   position: absolute;
@@ -1078,6 +1083,8 @@
   left: 891px;
   bottom: 0px;
   background: #00E0D3;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .2s
 }
 .frec5 {
   position: absolute;
@@ -1086,6 +1093,8 @@
   left: 1028px;
   bottom: 0px;
   background: #D00000;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .8s
 }
 .frec6 {
   position: absolute;
@@ -1094,6 +1103,8 @@
   left: 1165px;
   bottom: 0px;
   background: #04D200;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: 1.2s
 }
 .frec7 {
   position: absolute;
@@ -1102,6 +1113,8 @@
   left: 1302px;
   bottom: 0px;
   background: #E71D73;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .6s
 }
 .fbackground {
   position: absolute;
