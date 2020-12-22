@@ -5,6 +5,11 @@
   position: absolute;
   left: 0;
   top: 0;
+  transition: all 2.5s ease;
+}
+.grey-rectangle:hover {
+  background: #ECEC00;
+  transition: all .8s ease;
 }
 .pink-rectangle {
   width: 240px;
@@ -13,12 +18,11 @@
   position: absolute;
   left: 240px;
   top: 0;
-  filter: grayscale(100%);
-  transition: all 1s;
+  transition: all 2.5s ease;
 }
 .pink-rectangle:hover {
-  filter: grayscale(0%);
-  transition: all 3s;
+  background: #04D200;
+  transition: all .8s ease;
 }
 .light-rectangle {
   width: 240px;
@@ -27,6 +31,11 @@
   position: absolute;
   left: 480px;
   top: 0;
+  transition: all 2.5s ease;
+}
+.light-rectangle:hover {
+  background: #D00000;
+  transition: all .8s ease;
 }
 .green-rectangle {
   width: 240px;
@@ -35,6 +44,11 @@
   position: absolute;
   left: 720px;
   top: 0;
+  transition: all 2.5s ease;
+}
+.green-rectangle:hover {
+  background: #0002AF;
+  transition: all .8s ease;
 }
 .red-rectangle {
   width: 240px;
@@ -43,6 +57,11 @@
   position: absolute;
   left: 960px;
   top: 0;
+  transition: all 2.5s ease
+}
+.red-rectangle:hover {
+  background: #00E0D3;
+  transition: all .8s ease;
 }
 .blue-rectangle {
   width: 240px;
@@ -51,6 +70,11 @@
   position: absolute;
   left: 1200px;
   top: 0;
+  transition: all 2.5s ease;
+}
+.blue-rectangle:hover {
+  background: #04D200;
+  transition: all .8s;
 }
 .logo {
   position: relative;
@@ -69,6 +93,7 @@
   top: 826px;
 }
 
+/* рамка */
 .hrec1 {
   position: absolute;
   width: 240px;
@@ -76,6 +101,8 @@
   left: 0px;
   top: 900px;
   background: #0002AF;
+  animation: frame 10s linear infinite;
+  animation-delay: .2s
 }
 .hrec2 {
   position: absolute;
@@ -84,6 +111,8 @@
   left: 240px;
   top: 900px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: .4s */
 }
 .hrec3 {
   position: absolute;
@@ -92,6 +121,8 @@
   left: 480px;
   top: 900px;
   background: #D00000;
+  animation: frame 10s linear infinite;
+  animation-delay: .6s
 }
 .hrec4 {
   position: absolute;
@@ -100,6 +131,8 @@
   left: 720px;
   top: 900px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: .8s */
 }
 .hrec5 {
   position: absolute;
@@ -108,6 +141,8 @@
   left: 960px;
   top: 900px;
   background: #00E0D3;
+  animation: frame 10s linear infinite;
+  animation-delay: 1s
 }
 .hrec6 {
   position: absolute;
@@ -116,6 +151,8 @@
   left: 1200px;
   top: 900px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 1.2s */
 }
 .hrec7 {
   position: absolute;
@@ -124,6 +161,8 @@
   left: 0px;
   top: 1748px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 3.4s; */
 }
 .hrec8 {
   position: absolute;
@@ -132,6 +171,8 @@
   left: 240px;
   top: 1748px;
   background:  #0002AF;
+  animation: frame 10s linear infinite;
+  animation-delay: 3.2s;
 }
 .hrec9 {
   position: absolute;
@@ -140,6 +181,8 @@
   left: 480px;
   top: 1748px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 3s; */
 }
 .hrec10 {
   position: absolute;
@@ -148,6 +191,8 @@
   left: 720px;
   top: 1748px;
   background: #D00000;
+  animation: frame 10s linear infinite;
+  animation-delay: 2.8s;
 }
 .hrec11 {
   position: absolute;
@@ -156,6 +201,8 @@
   left: 960px;
   top: 1748px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 2.6s; */
 }
 .hrec12 {
   position: absolute;
@@ -164,6 +211,8 @@
   left: 1200px;
   top: 1748px;
   background: #E71D73;
+  animation: frame 10s linear infinite;
+  animation-delay: 2.4s;
 }
 
 
@@ -174,6 +223,8 @@
   left: 0px;
   top: 952px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 4.2s; */
 }
 .vrec2 {
   position: absolute;
@@ -182,6 +233,8 @@
   left: 0px;
   top: 1151px;
   background: #04D200;
+  animation: frame 10s linear infinite;
+  animation-delay: 4s;
 }
 .vrec3 {
   position: absolute;
@@ -190,6 +243,8 @@
   left: 0px;
   top: 1350px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 3.8s; */
 }
 .vrec4 {
   position: absolute;
@@ -198,6 +253,8 @@
   left: 0px;
   top: 1549px;
   background: #E71D73;
+  animation: frame 10s linear infinite;
+  animation-delay: 3.6s;
 }
 .vrec5 {
   position: absolute;
@@ -206,6 +263,8 @@
   left: 1388px;
   top: 952px;
   background: #D00000;
+  animation: frame 10s linear infinite;
+  animation-delay: 1.4s;
 }
 .vrec6 {
   position: absolute;
@@ -214,6 +273,8 @@
   left: 1388px;
   top: 1151px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 1.6s; */
 }
 .vrec7 {
   position: absolute;
@@ -222,6 +283,8 @@
   left: 1388px;
   top: 1350px;
   background: #0002AF;
+  animation: frame 10s linear infinite;
+  animation-delay: 1.8s;
 }
 .vrec8 {
   position: absolute;
@@ -230,6 +293,8 @@
   left: 1388px;
   top: 1549px;
   background: black;
+  /* animation: frame 10s linear infinite;
+  animation-delay: 2s; */
 }
 .circ1 {
   position: absolute;
@@ -239,6 +304,7 @@
   left: 52px;
   top: 952px;
   background: #C4C4C4;
+
 }
 .circ2 {
   position: absolute;
@@ -314,6 +380,8 @@
   left: 52px;
   top: 1151px;
   background: #E71D73;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .2s;
 }
 .line1rec2{
   position: absolute;
@@ -322,6 +390,8 @@
   left: 243px;
   top: 1151px;
   background: #0002AF;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .4s;
 }
 .line1rec3{
   position: absolute;
@@ -330,6 +400,8 @@
   left: 433px;
   top: 1151px;
   background: #00E0D3;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .6s;
 }
 .line1rec4{
   position: absolute;
@@ -338,6 +410,8 @@
   left: 624px;
   top: 1151px;
   background: #04D200;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .8s;
 }
 .line1rec5{
   position: absolute;
@@ -346,6 +420,8 @@
   left: 815px;
   top: 1151px;
   background: #D00000;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: 1s;
 }
 .line1rec6{
   position: absolute;
@@ -354,6 +430,8 @@
   left: 1006px;
   top: 1151px;
   background: #E71D73;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: 1.2s;
 }
 .line1rec7{
   position: absolute;
@@ -362,6 +440,8 @@
   left: 1197px;
   top: 1151px;
   background: #00E0D3;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: 1.4s;
 }
 .line1rec8{
   position: absolute;
@@ -427,6 +507,7 @@
   left: 52px;
   top: 1443px;
   background: white;
+  animation: wb1 2s infinite linear reverse;
 }
 .line2-1rec2 {
   position: absolute;
@@ -435,6 +516,7 @@
   left: 386px;
   top: 1443px;
   background: black;
+  animation: wb2 2s infinite linear reverse;
 }
 .line2-1rec3 {
   position: absolute;
@@ -443,6 +525,7 @@
   left: 720px;
   top: 1443px;
   background: white;
+  animation: wb1 2s infinite linear reverse;
 }
 .line2-1rec4 {
   position: absolute;
@@ -451,6 +534,7 @@
   left: 1054px;
   top: 1443px;
   background: black;
+  animation: wb2 2s infinite linear reverse;
 }
 .line2-1rec5 {
   position: absolute;
@@ -459,6 +543,7 @@
   left: 52px;
   top: 1468px;
   background: black;
+  animation: wb2 2s infinite linear reverse;
 }
 .line2-1rec6 {
   position: absolute;
@@ -467,6 +552,7 @@
   left: 386px;
   top: 1468px;
   background: white;
+  animation: wb1 2s infinite linear reverse;
 }
 .line2-1rec7 {
   position: absolute;
@@ -475,6 +561,7 @@
   left: 720px;
   top: 1468px;
   background: black;
+  animation: wb2 2s infinite linear reverse;
 }
 .line2-1rec8 {
   position: absolute;
@@ -483,6 +570,7 @@
   left: 1054px;
   top: 1468px;
   background: white;
+  animation: wb1 2s infinite linear reverse;
 }
 
 .line2-2rec1 {
@@ -492,6 +580,8 @@
   left: 52px;
   top: 1493px;
   background: #D00000;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .2s;
 }
 .line2-2rec2 {
   position: absolute;
@@ -500,6 +590,8 @@
   left: 245px;
   top: 1493px;
   background: #E71D73;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .4s;
 }
 .line2-2rec3 {
   position: absolute;
@@ -508,6 +600,8 @@
   left: 435px;
   top: 1493px;
   background: #04D200;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .6s;
 }
 .line2-2rec4 {
   position: absolute;
@@ -516,6 +610,8 @@
   left: 628px;
   top: 1493px;
   background: #0002AF;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .8s;
 }
 .line2-2rec5 {
   position: absolute;
@@ -524,6 +620,8 @@
   left: 818px;
   top: 1493px;
   background: #00E0D3;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: 1s;
 }
 .line2-2rec6 {
   position: absolute;
@@ -532,6 +630,8 @@
   left: 1011px;
   top: 1493px;
   background: #04D200;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: 1.2s;
 }
 .line2-2rec7 {
   position: absolute;
@@ -540,6 +640,8 @@
   left: 1201px;
   top: 1493px;
   background: #D00000;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: 1.4s;
 }
 .centrec {
   position: absolute;
@@ -595,6 +697,8 @@
   left: 374px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: .2s
 }
 .mini2 {
   position: absolute;
@@ -603,6 +707,8 @@
   left: 400px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: .4s
 }
 .mini3 {
   position: absolute;
@@ -611,6 +717,8 @@
   left: 426px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: .6s
 }
 .mini4 {
   position: absolute;
@@ -619,6 +727,8 @@
   left: 452px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: .8s
 }
 .mini5 {
   position: absolute;
@@ -627,6 +737,8 @@
   left: 478px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1s
 }
 .mini6 {
   position: absolute;
@@ -635,6 +747,8 @@
   left: 504px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.2s
 }
 .mini7 {
   position: absolute;
@@ -643,6 +757,8 @@
   left: 530px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.4s
 }
 .mini8 {
   position: absolute;
@@ -651,6 +767,8 @@
   left: 556px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.6s
 }
 .mini9 {
   position: absolute;
@@ -659,6 +777,8 @@
   left: 582px;
   top: 1249px;
   background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.8s
 }
 .mini10 {
   position: absolute;
@@ -667,6 +787,8 @@
   left: 608px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2s
 }
 .mini11 {
   position: absolute;
@@ -675,6 +797,8 @@
   left: 634px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.2s
 }
 .mini12 {
   position: absolute;
@@ -683,6 +807,8 @@
   left: 660px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.4s
 }
 .mini13 {
   position: absolute;
@@ -691,6 +817,8 @@
   left: 686px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.6s
 }
 .mini14 {
   position: absolute;
@@ -699,6 +827,8 @@
   left: 712px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.8s
 }
 .mini15 {
   position: absolute;
@@ -707,6 +837,8 @@
   left: 738px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3s
 }
 .mini16 {
   position: absolute;
@@ -715,6 +847,8 @@
   left: 764px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.2s
 }
 .mini17 {
   position: absolute;
@@ -723,6 +857,8 @@
   left: 790px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.4s
 }
 .mini18 {
   position: absolute;
@@ -731,6 +867,8 @@
   left: 816px;
   top: 1249px;
   background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.6s
 }
 .mini19 {
   position: absolute;
@@ -739,6 +877,8 @@
   left: 842px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.8s
 }
 .mini20 {
   position: absolute;
@@ -747,6 +887,8 @@
   left: 868px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4s
 }
 .mini21 {
   position: absolute;
@@ -755,6 +897,8 @@
   left: 894px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.2s
 }
 .mini22 {
   position: absolute;
@@ -763,6 +907,8 @@
   left: 920px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.4s
 }
 .mini23 {
   position: absolute;
@@ -771,6 +917,8 @@
   left: 946px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.6s
 }
 .mini24 {
   position: absolute;
@@ -779,6 +927,8 @@
   left: 972px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.8s
 }
 .mini25 {
   position: absolute;
@@ -787,6 +937,8 @@
   left: 998px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 5s
 }
 .mini26 {
   position: absolute;
@@ -795,6 +947,8 @@
   left: 1024px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 5.2s
 }
 .mini27 {
   position: absolute;
@@ -803,6 +957,8 @@
   left: 1050px;
   top: 1249px;
   background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 5.4s
 }
 .lightrec {
   position: absolute;
