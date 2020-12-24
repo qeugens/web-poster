@@ -3,16 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Колорист</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap">
     <link rel="stylesheet" href="css/styles.css">
     <style media="screen">
     html {
-       background: grey;
+       background: #626262;
        display: block;
        height: 100%;
      }
      body {
-       width: 1440px;
        display: block;
        height: 3600px;
        margin: 0 auto;
@@ -20,16 +18,6 @@
        font-family: 'Rubik', sans-serif;
        font-size: 48px;
      }
-      /* body::before {
-        background: url(images/background.png);
-        position: absolute;
-        content: "";
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        opacity: .4;
-      } */
 
       @keyframes rotate1 {
         100% {
@@ -120,56 +108,58 @@
     </style>
   </head>
   <body>
-
+<div id="parent">
     <div class="grey-rectangle"></div>
     <div class="pink-rectangle"></div>
     <div class="light-rectangle"></div>
     <div class="green-rectangle"></div>
     <div class="red-rectangle"></div>
     <div class="blue-rectangle"></div>
+</div>
     <div class="logo">
       <img src="images/logo.png" alt="">
     </div>
+    <div class="logo2">
+      <img src="images/logo2.png" alt="">
+    </div>
     <div class="text">Цветовые настройки вашего зрения</div>
+</div>
 
-    <!-- то, что на фоне -->
-    <div class="background"></div>
-    <div class="circle"></div>
+<div class="main">
+  <!-- рамка -->
+<div id="frame1">
+  <div class="hrec1"></div>
+  <div class="hrec2"></div>
+  <div class="hrec3"></div>
+  <div class="hrec4"></div>
+  <div class="hrec5"></div>
+  <div class="hrec6"></div>
+</div>
 
-    <!-- рамка -->
-    <div class="hrec1"></div>
-    <div class="hrec2"></div>
-    <div class="hrec3"></div>
-    <div class="hrec4"></div>
-    <div class="hrec5"></div>
-    <div class="hrec6"></div>
-    <div class="hrec7"></div>
-    <div class="hrec8"></div>
-    <div class="hrec9"></div>
-    <div class="hrec10"></div>
-    <div class="hrec11"></div>
-    <div class="hrec12"></div>
+  <!-- то, что на фоне -->
+  <div class="circle">
+    <img src="images/circle.png" alt="">
+  </div>
+  <div class="circle2">
+    <img src="images/circle2.png" alt="">
+  </div>
 
-    <div class="vrec1"></div>
-    <div class="vrec2"></div>
-    <div class="vrec3"></div>
-    <div class="vrec4"></div>
-    <div class="vrec5"></div>
-    <div class="vrec6"></div>
-    <div class="vrec7"></div>
-    <div class="vrec8"></div>
+  <!-- круги  -->
+<div id="circ">
+  <div class="circ1"></div>
+  <div class="circ2"></div>
+  <div class="circ3"></div>
+  <div class="circ4"></div>
+</div>
+<div id="rec-rotate">
+  <div class="redrec"></div>
+  <div class="greenrec"></div>
+  <div class="blackrec"></div>
+  <div class="bluerec"></div>
+</div>
 
-    <!-- круги  -->
-    <div class="circ1"></div>
-    <div class="circ2"></div>
-    <div class="circ3"></div>
-    <div class="circ4"></div>
-    <div class="redrec"></div>
-    <div class="greenrec"></div>
-    <div class="blackrec"></div>
-    <div class="bluerec"></div>
-
-    <!-- первая линия -->
+  <!-- первая линия -->
+  <div id="line1">
     <div class="line1rec1"></div>
     <div class="line1rec2"></div>
     <div class="line1rec3"></div>
@@ -177,6 +167,8 @@
     <div class="line1rec5"></div>
     <div class="line1rec6"></div>
     <div class="line1rec7"></div>
+  </div>
+  <div id="line2">
     <div class="line1rec8"></div>
     <div class="line1rec9"></div>
     <div class="line1rec10"></div>
@@ -184,17 +176,23 @@
     <div class="line1rec12"></div>
     <div class="line1rec13"></div>
     <div class="line1rec14"></div>
+  </div>
 
-    <!-- вторая чб линия -->
+  <!-- вторая чб линия -->
+  <div id="line3">
     <div class="line2-1rec1"></div>
     <div class="line2-1rec2"></div>
     <div class="line2-1rec3"></div>
     <div class="line2-1rec4"></div>
+  </div>
+  <div id="line4">
     <div class="line2-1rec5"></div>
     <div class="line2-1rec6"></div>
     <div class="line2-1rec7"></div>
     <div class="line2-1rec8"></div>
-    <!-- вторая цветная линия -->
+  </div>
+  <!-- вторая цветная линия -->
+  <div id="line5">
     <div class="line2-2rec1"></div>
     <div class="line2-2rec2"></div>
     <div class="line2-2rec3"></div>
@@ -202,25 +200,10 @@
     <div class="line2-2rec5"></div>
     <div class="line2-2rec6"></div>
     <div class="line2-2rec7"></div>
+  </div>
 
-    <!-- цветные штукенции -->
-    <div class="rec1"></div>
-    <div class="rec2"></div>
-    <div class="pinkrec">
-      <img src="images/pinkrec.png" alt="">
-    </div>
-    <div class="lightrec">
-      <img src="images/lightrec.png" alt="">
-    </div>
-    <div class="linerec1">
-      <img src="images/linerec1.png" alt="">
-    </div>
-    <div class="linerec2">
-      <img src="images/linerec2.png" alt="">
-    </div>
-    <div class="centrec"></div>
-
-    <!-- маленькие -->
+  <!-- маленькие -->
+  <div id="mini">
     <div class="mini1"></div>
     <div class="mini2"></div>
     <div class="mini3"></div>
@@ -248,29 +231,55 @@
     <div class="mini25"></div>
     <div class="mini26"></div>
     <div class="mini27"></div>
+  </div>
+
+  <div id="frame2">
+    <div class="hrec7"></div>
+    <div class="hrec8"></div>
+    <div class="hrec9"></div>
+    <div class="hrec10"></div>
+    <div class="hrec11"></div>
+    <div class="hrec12"></div>
+  </div>
+  <div id="frame3">
+    <div class="vrec1"></div>
+    <div class="vrec2"></div>
+    <div class="vrec3"></div>
+    <div class="vrec4"></div>
+  </div>
+  <div id="frame4">
+    <div class="vrec5"></div>
+    <div class="vrec6"></div>
+    <div class="vrec7"></div>
+    <div class="vrec8"></div>
+  </div>
 
     <!-- крутилки -->
-
+    <div class="backgroundk"></div>
     <!-- то, что по бокам -->
     <div class="side1"> <img src="images/side1.png" alt=""> </div>
     <div class="side2"> <img src="images/side2.png" alt=""> </div>
+    <div class="left"> <img src="images/left.png" alt=""> </div>
+    <div class="right"> <img src="images/right.png" alt=""> </div>
     <!-- кнопки -->
-    <div class="backgroundk"></div>
     <div class="k1"> <img src="images/1.png" alt=""> </div>
     <div class="k2"> <img src="images/2.png" alt=""> </div>
     <div class="k3"> <img src="images/3.png" alt=""> </div>
     <div class="k4"> <img src="images/4.png" alt=""> </div>
-
+    <div class="k5"> <img src="images/1.png" alt=""> </div>
     <!-- футер -->
     <div class="fbackground"></div>
     <div class="ftext">Мария Журанкова<br>@qeugens</div>
-    <div class="frec1"></div>
-    <div class="frec2"></div>
-    <div class="frec3"></div>
-    <div class="frec4"></div>
-    <div class="frec5"></div>
-    <div class="frec6"></div>
-    <div class="frec7"></div>
+    <div id="frec">
+      <div class="frec1"></div>
+      <div class="frec2"></div>
+      <div class="frec3"></div>
+      <div class="frec4"></div>
+      <div class="frec5"></div>
+      <div class="frec6"></div>
+      <div class="frec7"></div>
+    </div>
 
+</div>
   </body>
 </html>

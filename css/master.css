@@ -1,0 +1,883 @@
+#parent {
+  width: 100%;
+  display: flex;
+}
+#parent div {
+  flex-shrink: 1;
+  width: calc(100%/6);
+  height: 900px;
+}
+.grey-rectangle {
+  background: #C4C4C4;
+  transition: all 2.5s ease;
+}
+.grey-rectangle:hover {
+  background: #ECEC00;
+  transition: all .8s ease;
+}
+.pink-rectangle {
+  background: #E71D73;
+  transition: all 2.5s ease;
+}
+.pink-rectangle:hover {
+  background: #04D200;
+  transition: all .8s ease;
+}
+.light-rectangle {
+  background: #00E0D3;
+  transition: all 2.5s ease;
+}
+.light-rectangle:hover {
+  background: #D00000;
+  transition: all .8s ease;
+}
+.green-rectangle {
+  background: #04D200;
+  transition: all 2.5s ease;
+}
+.green-rectangle:hover {
+  background: #0002AF;
+  transition: all .8s ease;
+}
+.red-rectangle {
+  background: #D00000;
+  transition: all 2.5s ease
+}
+.red-rectangle:hover {
+  background: #00E0D3;
+  transition: all .8s ease;
+}
+.blue-rectangle {
+  background: #0002AF;
+  transition: all 2.5s ease;
+}
+.blue-rectangle:hover {
+  background: #04D200;
+  transition: all .8s;
+}
+.logo {
+  position: absolute;
+  left: 34px;
+  top: 16px;
+}
+.logo2 {
+  display: none;
+  position: absolute;
+  left: 34px;
+  top: 16px;
+}
+.text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36pt;
+  line-height: 57px;
+  color: black;
+  position: absolute;
+  left: 34px;
+  top: 826px;
+}
+
+/* рамка */
+#frame1 {
+  width: 100%;
+  display: flex;
+}
+#frame1 div {
+  flex-shrink: 1;
+  width: calc(100%/6);
+  height: 52px;
+}
+.hrec1 {
+  background: #0002AF;
+  animation: frame 10s linear infinite;
+  animation-delay: .2s
+}
+.hrec2 {
+  background: black;
+}
+.hrec3 {
+  background: #D00000;
+  animation: frame 10s linear infinite;
+  animation-delay: .6s
+}
+.hrec4 {
+  background: black;
+}
+.hrec5 {
+  background: #00E0D3;
+  animation: frame 10s linear infinite;
+  animation-delay: 1s
+}
+.hrec6 {
+  background: black;
+}
+
+#frame2 {
+  width: 100%;
+  display: flex;
+  margin-top: 796px;
+  /* 203 */
+}
+#frame2 div {
+  width: calc(100%/6);
+  height: 52px;
+  align-content: flex-end;
+}
+.hrec7 {
+  background: black;
+}
+.hrec8 {
+  background:  #0002AF;
+  animation: frame 10s linear infinite;
+  animation-delay: 3.2s;
+}
+.hrec9 {
+  background: black;
+}
+.hrec10 {
+  background: #D00000;
+  animation: frame 10s linear infinite;
+  animation-delay: 2.8s;
+}
+.hrec11 {
+  background: black;
+}
+.hrec12 {
+  background: #E71D73;
+  animation: frame 10s linear infinite;
+  animation-delay: 2.4s;
+}
+
+
+.vrec1 {
+  position: absolute;
+  width: 52px;
+  height: 199px;
+  left: 0px;
+  top: 952px;
+  background: black;
+}
+.vrec2 {
+  position: absolute;
+  width: 52px;
+  height: 199px;
+  left: 0px;
+  top: 1151px;
+  background: #04D200;
+  animation: frame 10s linear infinite;
+  animation-delay: 4s;
+}
+.vrec3 {
+  position: absolute;
+  width: 52px;
+  height: 199px;
+  left: 0px;
+  top: 1350px;
+  background: black;
+}
+
+.vrec4 {
+  position: absolute;
+  width: 52px;
+  height: 199px;
+  left: 0px;
+  top: 1549px;
+  background: #E71D73;
+  animation: frame 10s linear infinite;
+  animation-delay: 3.6s;
+}
+
+#frame4 div {
+  width: 52px;
+  height: 199px;
+}
+.vrec5 {
+  position: absolute;
+  top: 952px;
+  right: 0px;
+  background: #D00000;
+  animation: frame 10s linear infinite;
+  animation-delay: 1.4s;
+}
+.vrec6 {
+  position: absolute;
+  top: 1151px;
+  right: 0px;
+  background: black;
+}
+.vrec7 {
+  position: absolute;
+  top: 1350px;
+  right: 0px;
+  background: #0002AF;
+  animation: frame 10s linear infinite;
+  animation-delay: 1.8s;
+}
+.vrec8 {
+  position: absolute;
+  top: 1549px;
+  right: 0px;
+  background: black;
+}
+
+#circ div {
+  width: 199px;
+  height: 199px;
+  border-radius: 50%;
+}
+.circ1 {
+  position: absolute;
+  left: 52px;
+  top: 952px;
+  background: #C4C4C4;
+
+}
+.circ2 {
+  position: absolute;
+  right: 52px;
+  top: 952px;
+  background: #C4C4C4;
+}
+.circ3 {
+  position: absolute;
+  left: 52px;
+  top: 1549px;
+  background: #C4C4C4;
+}
+.circ4 {
+  position: absolute;
+  right: 52px;
+  top: 1549px;
+  background: #C4C4C4;
+}
+.redrec {
+  position: absolute;
+  width: 121px;
+  height: 43px;
+  left: 91px;
+  top: 1030px;
+  background: #D00000;
+  animation: rotate1 2s infinite linear reverse;
+ }
+.greenrec {
+  position: absolute;
+  width: 121px;
+  height: 43px;
+  right: 91px;
+  top: 1030px;
+  background: #04D200;
+  animation: rotate1 2s infinite linear reverse;
+  animation-delay: .2s;
+ }
+.blackrec {
+  position: absolute;
+  width: 121px;
+  height: 43px;
+  left: 91px;
+  top: 1627px;
+  background: #000000;
+  animation: rotate2 2s infinite linear reverse;
+  animation-delay: .6s;
+}
+.bluerec {
+  position: absolute;
+  width: 121px;
+  height: 43px;
+  right: 91px;
+  top: 1627px;
+  background: #0002AF;
+  animation: rotate2 2s infinite linear reverse;
+  animation-delay: .8s;
+}
+#line1 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: 198px;
+}
+#line1 div{
+  flex-shrink: 1;
+  width: calc(100%/7);
+  height: 48px;
+}
+.line1rec1{
+  background: #E71D73;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .2s;
+}
+.line1rec2{
+  background: #0002AF;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .4s;
+}
+.line1rec3{
+  background: #00E0D3;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .6s;
+}
+.line1rec4{
+  background: #04D200;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: .8s;
+}
+.line1rec5{
+  background: #D00000;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: 1s;
+}
+.line1rec6{
+  background: #E71D73;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: 1.2s;
+}
+.line1rec7{
+  background: #00E0D3;
+  animation: line1 6s infinite linear reverse;
+  animation-delay: 1.4s;
+}
+
+#line2 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: 246px;
+}
+#line2 div{
+  flex-shrink: 1;
+  width: calc(100%/7);
+  height: 50px;
+}
+.line1rec8{
+  background: black;
+}
+.line1rec9{
+  background: #3C3C3C;
+}
+.line1rec10{
+  background: #626262;
+}
+.line1rec11{
+  background: #7A7A7A;
+}
+.line1rec12{
+  background: #8E8E8E;
+}
+.line1rec13{
+  background: #A4A4A4;
+}
+.line1rec14{
+  background: #C4C4C4;
+}
+#line3 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: 491px;
+  /* 190 */
+}
+#line3 div {
+  flex-shrink: 1;
+  width: calc(100%/4);
+  height: 25px;
+}
+.line2-1rec1 {
+  background: white;
+  animation: wb1 2s infinite linear reverse;
+}
+.line2-1rec2 {
+  background: black;
+  animation: wb2 2s infinite linear reverse;
+}
+.line2-1rec3 {
+  background: white;
+  animation: wb1 2s infinite linear reverse;
+}
+.line2-1rec4 {
+  background: black;
+  animation: wb2 2s infinite linear reverse;
+}
+
+#line4 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: 516px;
+}
+#line4 div {
+  flex-shrink: 1;
+  width: calc(100%/4);
+  height: 25px;
+}
+.line2-1rec5 {
+  background: black;
+  animation: wb2 2s infinite linear reverse;
+}
+.line2-1rec6 {
+  background: white;
+  animation: wb1 2s infinite linear reverse;
+}
+.line2-1rec7 {
+  background: black;
+  animation: wb2 2s infinite linear reverse;
+}
+.line2-1rec8 {
+  background: white;
+  animation: wb1 2s infinite linear reverse;
+}
+
+#line5 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: 541px;
+}
+#line5 div{
+  flex-shrink: 1;
+  width: calc(100%/7);
+  height: 56px;
+}
+.line2-2rec1 {
+  background: #D00000;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .2s;
+}
+.line2-2rec2 {
+  background: #E71D73;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .4s;
+}
+.line2-2rec3 {
+  background: #04D200;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .6s;
+}
+.line2-2rec4 {
+  background: #0002AF;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: .8s;
+}
+.line2-2rec5 {
+  background: #00E0D3;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: 1s;
+}
+.line2-2rec6 {
+  background: #04D200;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: 1.2s;
+}
+.line2-2rec7 {
+  background: #D00000;
+  animation: line2 6s infinite linear reverse;
+  animation-delay: 1.4s;
+}
+
+.mini2 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 400px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: .4s
+}
+.mini3 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 426px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: .6s
+}
+.mini4 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 452px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: .8s
+}
+.mini5 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 478px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1s
+}
+.mini6 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 504px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.2s
+}
+.mini7 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 530px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.4s
+}
+.mini8 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 556px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.6s
+}
+.mini9 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 582px;
+  top: 1249px;
+  background: #D00000;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 1.8s
+}
+.mini10 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 608px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2s
+}
+.mini11 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 634px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.2s
+}
+.mini12 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 660px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.4s
+}
+.mini13 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 686px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.6s
+}
+.mini14 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 712px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 2.8s
+}
+.mini15 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 738px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3s
+}
+.mini16 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 764px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.2s
+}
+.mini17 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 790px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.4s
+}
+.mini18 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 816px;
+  top: 1249px;
+  background: #0002AF;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.6s
+}
+.mini19 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 842px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 3.8s
+}
+.mini20 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 868px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4s
+}
+.mini21 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 894px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.2s
+}
+.mini22 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 920px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.4s
+}
+.mini23 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 946px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.6s
+}
+.mini24 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 972px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 4.8s
+}
+.mini25 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 998px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 5s
+}
+.mini26 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 1024px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 5.2s
+}
+.mini27 {
+  position: absolute;
+  width: 16px;
+  height: 27px;
+  left: 1050px;
+  top: 1249px;
+  background: #E71D73;
+  animation: mini 4s infinite linear reverse;
+  animation-delay: 5.4s
+}
+.circle {
+  position: absolute;
+  top: 988px;
+  left: 25%;
+  right: 25%;
+}
+.circle2 {
+  display: none;
+  position: absolute;
+  top: 1100px;
+  left: 25%;
+  right: 25%;
+}
+.side1 {
+  position: absolute;
+  left: 0px;
+  top: 1800px;
+}
+.side2 {
+  position: absolute;
+  right: 0px;
+  top: 1800px;
+}
+.left {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 1800px;
+}
+.right {
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 1800px;
+}
+.k1 {
+  position: absolute;
+  left: 38%;
+  top: 1822px;
+  animation: rotate1 2s infinite linear reverse;
+}
+.k2 {
+  position: absolute;
+  left: 38%;
+  top: 2236px;
+  animation: rotate2 2s infinite linear reverse;
+}
+.k3 {
+  position: absolute;
+  left: 38%;
+  top: 2648px;
+  animation: rotate1 .8s infinite linear reverse;
+}
+.k4 {
+  position: absolute;
+  left: 38%;
+  top: 3055px;
+  animation: rotate2 4s infinite linear reverse;
+}
+.k5 {
+  display: none;
+  position: absolute;
+  left: 38%;
+  top: 3465px;
+  animation: rotate2 4s infinite linear reverse;
+}
+.backgroundk {
+  position: absolute;
+  width: 100%;
+  height: 1647px;
+  top: 1800px;
+  background: #C4C4C4;
+}
+.ftext {
+  position: absolute;
+  width: 220px;
+  height: 66px;
+  left: 52px;
+  top: 3484px;
+  font-size: 22px;
+  color: white;
+}
+#frec div{
+  width: 137px;
+  height: 75px;
+}
+.frec1 {
+  position: absolute;
+  right: 828px;
+  bottom: 0px;
+  background: #E71D73;
+  animation: futer 2s infinite linear reverse
+}
+.frec2 {
+  position: absolute;
+  right: 690px;
+  bottom: 0px;
+  background: #04D200;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: 1s
+}
+.frec3 {
+  position: absolute;
+  right: 552px;
+  bottom: 0px;
+  background: #D00000;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .8s
+}
+.frec4 {
+  position: absolute;
+  right: 414px;
+  bottom: 0px;
+  background: #00E0D3;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .2s
+}
+.frec5 {
+  position: absolute;
+  right: 276px;
+  bottom: 0px;
+  background: #D00000;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .8s
+}
+.frec6 {
+  position: absolute;
+  right: 138px;
+  bottom: 0px;
+  background: #04D200;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: 1.2s
+}
+.frec7 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: #E71D73;
+  animation: futer 2s infinite linear reverse;
+  animation-delay: .6s
+}
+.fbackground {
+  position: absolute;
+  width: 100%;
+  height: 153px;
+  bottom: 0px;
+  background: black;
+}

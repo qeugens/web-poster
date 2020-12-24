@@ -1,0 +1,127 @@
+@media all and (min-width: 1580px) {
+  #mini {
+    display: none;
+  }
+}
+@media all and (max-width: 1440px) {
+  #mini {
+    display: none;
+  }
+}
+@media all and (max-device-width: 768px) {
+  .text {
+    font-size: 24pt;
+  }
+}
+
+@media all and (max-device-width: 1022px){
+  #frame2 {
+    margin-top: 796px;
+  }
+  .circle {
+    display: none;
+  }
+  .circle2 {
+    display: block;
+  }
+  #line1 {
+    margin-top: 265px;
+  }
+  #line1 div {
+    height: 37px;
+  }
+  #line2 {
+    margin-top: 300px;
+  }
+  #line2 div {
+    height: 36px;
+  }
+  #line3 {
+    margin-top: 472px;
+  }
+  #line3 div {
+    height: 17px;
+  }
+  #line4 {
+    margin-top: 489px;
+  }
+  #line4 div {
+    height: 17px;
+  }
+  #line5 {
+    margin-top: 507px;
+  }
+  #line5 div {
+    height: 41px;
+  }
+  .side1 {
+    display: none;
+  }
+  .side2 {
+    display: none;
+  }
+  .left {
+    display: block;
+  }
+  .right {
+    display: block;
+  }
+  .fbackground {
+    bottom: -320px;
+  }
+  .backgroundk {
+    height: 2000px;
+  }
+  .ftext {
+    top: 3820px;
+  }
+  #frec div{
+    width: 72px;
+    bottom: -320px;
+  }
+  .frec6 {
+    right: 72px;
+  }
+  .frec5 {
+    right: 144px;
+  }
+  .frec4 {
+    right: 216px;
+  }
+  .frec3 {
+    right: 288px;
+  }
+  .frec2 {
+    right: 360px;
+  }
+  .frec1 {
+    right: 432px;
+  }
+  .k1 {
+    left: 300px;
+    top: 1810px;
+  }
+  .k2 {
+    left: 300px;
+    top: 2214px;
+  }
+  .k3 {
+    left: 300px;
+    top: 2608px;
+  }
+  .k4 {
+    left: 300px;
+    top: 3005px;
+  }
+  .k5 {
+    left: 300px;
+    top: 3390px;
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    display: block;
+  }
+}
